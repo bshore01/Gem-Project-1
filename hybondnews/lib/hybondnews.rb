@@ -20,7 +20,6 @@ module HYBondNews
     doc2 = Nokogiri::HTML(open("http://www.leveragedfinancenews.com/section/high_yield_bonds.html"))
 
     <<-TEXT
-
     HY Bond News
 
     #{doc2.search("h4")[0].text}

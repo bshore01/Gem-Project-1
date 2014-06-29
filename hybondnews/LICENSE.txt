@@ -1,4 +1,4 @@
-Copyright (c) 2014 Amber Tunnell
+Copyright (c) 2014 Ben Shore & Amber Tunnell
 
 MIT License
 

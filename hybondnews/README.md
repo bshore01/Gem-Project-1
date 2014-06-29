@@ -1,6 +1,6 @@
 # Hybondnews
 
-TODO: Write a gem description
+A web-scraping gem that provides live news updates related to the High Yield Bond Markets.
 
 ## Installation
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For the current 10-year treasury rate from the Federal Reserve
+and the latest 3 articles from www.leveragedfinancenews.com:
+
+    $ hybondnews
+
 
 ## Contributing
 

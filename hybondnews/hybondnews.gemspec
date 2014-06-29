@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Hybondnews::VERSION
   spec.authors       = ["Ben Shore","Amber Tunnell"]
   spec.email         = ["amber.tunnell@gmail.com"]
-  spec.summary       = %q{HY Bond News.}
-  spec.description   = %q{HY Bond News.}
+  spec.summary       = %q{Web-scraping gem for High Yield Bond News}
+  spec.description   = %q{A nokogiri-based web-scraping gem that provides live news updates related to the High Yield Bond Markets.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "pry"
-  spec.add_runtime_dependency "nokogiri"  
+  spec.add_runtime_dependency "nokogiri" 
 end
